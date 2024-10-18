@@ -1,6 +1,5 @@
 import sys
 from gpn.model import *
-from utils import *
 from transformers import AutoModel, AutoModelForMaskedLM, AutoTokenizer
 # select single sequence gpn model
 model_path = "./gpn_model/gpn-brassicales"
