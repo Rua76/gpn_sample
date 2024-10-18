@@ -7,14 +7,16 @@ It assume you are working on midway3
 ```
 pip install git+https://github.com/songlab-cal/gpn.git
 ```
-## 2. clone gpn github repository, and jump to the work directory
+## 2. clone this repo to your working directory
 ```
-git clone https://github.com/songlab-cal/gpn
-cd gpn
+
 ```
-## 3. copy the two files in this repo to current directory
-## 4. install git-lfs and clone their pretrained gpn model from huggingface
-git-lfs
+## 3. install *git-lfs* and clone their pretrained gpn model from huggingface
+suppose you are using mamba
+```
+mamba install git-lfs
+git clone https://huggingface.co/songlab/gpn-brassicales
+```
 ## 4. run the script with sbatch
 ```
 sbatch submit.sbatch
