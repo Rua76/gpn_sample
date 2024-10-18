@@ -7,7 +7,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
 #SBATCH --account=pi-yangili1
-#SBATCH -o ft_log
+#SBATCH -o log
 
 module load cuda/11.7
 
