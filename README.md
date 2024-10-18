@@ -26,3 +26,4 @@ git clone https://huggingface.co/songlab/gpn-brassicales
 ```
 sbatch submit.sbatch
 ```
+The print-out from this file will be stored in output file *log*
