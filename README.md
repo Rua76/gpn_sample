@@ -9,7 +9,8 @@ pip install git+https://github.com/songlab-cal/gpn.git
 ```
 ## 2. clone this repo to your working directory
 ```
-
+https://github.com/Rua76/gpn_sample
+cd gpn_sample
 ```
 ## 3. install *git-lfs* and clone their pretrained gpn model from huggingface
 suppose you are using mamba
