@@ -16,7 +16,7 @@ pip install git+https://github.com/songlab-cal/gpn.git
 git clone https://github.com/Rua76/gpn_sample
 cd gpn_sample
 ```
-## 3. install *git-lfs* and clone their pretrained gpn model from huggingface
+## 3. install *git-lfs* and clone pretrained gpn model from huggingface
 suppose you are using mamba
 ```
 mamba install git-lfs
