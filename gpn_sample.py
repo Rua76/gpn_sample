@@ -2,7 +2,7 @@ import sys
 from gpn.model import *
 from transformers import AutoModel, AutoModelForMaskedLM, AutoTokenizer
 # select single sequence gpn model
-model_path = "./gpn_model/gpn-brassicales"
+model_path = "./gpn-brassicales"
 # set tokenizer parallelism = false
 import os
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
