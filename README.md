@@ -1,7 +1,7 @@
 # GPN sample run code
 This is a sample code to show how to load and use pretrained gpn model to generate prediction on input sequence, and how to extract embeddings
 
-It assume you are working on midway3 with gpu. Other running config can be changed in *submit.sbatch* file
+It assume you are working on midway3 with gpu. Other running config can be changed in the ***submit.sbatch*** file
 ## 0. create a new working environment for gpn with mamba
 ```
 mamba create -n gpn_test python=3.8
