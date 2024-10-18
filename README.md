@@ -13,6 +13,8 @@ git clone https://github.com/songlab-cal/gpn
 cd gpn
 ```
 ## 3. copy the two files in this repo to current directory
+## 4. install git-lfs and clone their pretrained gpn model from huggingface
+git-lfs
 ## 4. run the script with sbatch
 ```
 sbatch submit.sbatch
